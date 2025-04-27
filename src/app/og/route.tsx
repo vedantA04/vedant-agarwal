@@ -21,17 +21,6 @@ export async function GET(request: Request) {
         padding: "8rem",
         background: "#151515",
       }}
-    >,
-    {
-      width: 1920,
-      height: 1080,
-      fonts: [
-        {
-          name: "Inter",
-          data: fontData,
-          style: "normal",
-        },
-      ],
-    },
+    >
   );
 }
